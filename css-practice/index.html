@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Challenge - Brochure Form</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="title-container">
+          <h2>Learn More</h2>
+        </div>
+        <form>
+          <div>
+            <label for="email">Company Email</label>
+            <div>
+              <input
+                name="email"
+                type="email"
+                id="email"
+                placeholder="sally@company.co" />
+            </div>
+          </div>
+          <div>
+            <label for="name">Name</label>
+            <div>
+              <input
+                name="name"
+                type="text"
+                id="name"
+                placeholder="Sally Smith" />
+            </div>
+          </div>
+          <div>
+            <label for="location">Where are you hiring?</label>
+            <div>
+              <input
+                name="location"
+                type="text"
+                id="location"
+                placeholder="City, Country" />
+            </div>
+          </div>
+          <div>
+            <label for="engineer-inquiry"
+              >How many engineers are you hiring in the next 6 months?</label
+            >
+            <div>
+              <select name="engineer-inquiry" id="engineer-inquiry">
+                <option value="1-2">1-2 Engineers</option>
+                <option value="3-4">3-4 Engineers</option>
+                <option value="5-6">5-6 Engineers</option>
+                <option value="7-8">7-8 Engineers</option>
+              </select>
+            </div>
+          </div>
+          <div class="button-container">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="boxes">
+        <div class="wrapper">
+          <div class="boxLeft">
+            <p>This is the first box.</p>
+          </div>
+          <div class="boxRight">
+            <p>This is the second box.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--object practice-->
+    <script>
+      const fullName = 'Connie Chin';
+      console.log('fullName:', fullName);
+      const human = {
+        name: 'George',
+        age: 3,
+        type: 'dog',
+      };
+      console.log('human', human, typeof human);
+      human.age = 5;
+      console.log('human updated', human);
+      const person = new Object();
+      person.hairColor = 'brown';
+      person.eyeColor = 'blue';
+      person.age = 57;
+      console.log('person', person);
+      delete person.eyeColor;
+      console.log('personUpdated:', person);
+      person.cars = { car1: 'volvo', car2: 'civic', car3: 'tundra' };
+      console.log(
+        "Kelly's hair is " +
+          person.hairColor +
+          'and she drives a ' +
+          person.cars.car2,
+      );
+    </script>
+  </body>
+</html>
