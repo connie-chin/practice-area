@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form>
+      <label for="email"> Email </label>
+      <div>
+        <input type="email" id="email" name="email" />
+        <!--name for server side.. mainly need type and id-->
+      </div>
+      <label for="coding-q">Why is coding cool?</label>
+      <div>
+        <select id="coding-q" name="coding-q">
+          <!--can use placeholder for default value, also can add required attribute-->
+          <option>Select an option</option>
+          <option value="interesting">Because it's interesting</option>
+          <option value="fun">Because it's fun</option>
+          <option value="powerful">Because it's powerful</option>
+        </select>
+      </div>
+      <!-- <div>
+        <label for="language">Favorite Language (choose one)</label>
+      </div> -->
+      <p>Favorite Language (choose one)</p>
+      <input type="radio" name="language" value="html" id="option-1" />
+      <label for="option-1">HTML</label>
+      <input type="radio" name="language" value="css" id="option-2" />
+      <label for="option-2">CSS</label>
+      <input type="radio" name="language" value="javascript" id="option-3" />
+      <!--w/name the same, allows us to only select 1 option-->
+      <label for="option-3">JavaScript</label>
+      <p>Would you like to sign up for more information?</p>
+      <input type="checkbox" name="sign-up" id="sign-up" />
+      <label for="sign-up">Sign me up!</label>
+      <div>
+        <label for="comments">Comments</label><br />
+        <textarea name="comments" id="comments" rows="10" cols="30"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+        <!--submit button section, can also use button tag?-->
+      </div>
+    </form>
+  </body>
+</html>
