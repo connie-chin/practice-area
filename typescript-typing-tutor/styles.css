@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+span {
+  white-space: pre;
+}
+
+.current {
+  border-bottom: solid black;
+}
+
+.correct {
+  color: rgb(146, 228, 141);
+}
+
+.incorrect {
+  color: red;
+  border-bottom: solid red;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem;
+}
+
+dialog {
+  border-color: transparent;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
