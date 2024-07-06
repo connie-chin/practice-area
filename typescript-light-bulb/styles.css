@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: rgb(254, 249, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-bulb {
+  background-color: rgb(249, 234, 132);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.container-off {
+  background-color: rgb(17, 17, 17);
+
+  /* min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.light-bulb-off {
+  background-color: rgb(37, 37, 37);
+
+  /* height: 200px;
+      width: 200px;
+      border-radius: 50%; */
+}
