@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 20%;
+}
+
+.input-check {
+  display: flex;
+}
+
+.x {
+  color: red;
+}
+
+.check {
+  color: green;
+}
+
+* {
+  margin-top: 5px;
+}
+
+.icon {
+  margin-left: 2px;
+}
