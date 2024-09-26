@@ -1,0 +1,21 @@
+.inputBox {
+  border: 2px solid black;
+  width: 30%;
+  height: 25px;
+  border-radius: 10px;
+  display: flex;
+  padding: 2px;
+}
+
+input {
+  width: 90%;
+  border: none;
+}
+
+.icon {
+  margin: 5px;
+}
+
+li {
+  margin-top: 10px;
+}
