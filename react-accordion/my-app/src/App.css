@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.cards-container {
+  width: 40%;
+}
+
+.topic-card {
+  border: 2px solid black;
+  background-color: rgb(221, 221, 221);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.content {
+  background-color: white;
+  border: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+}
