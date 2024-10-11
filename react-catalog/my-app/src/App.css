@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  color: rgb(230, 197, 129);
+  text-align: center;
+}
+
+.secondLine {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  font-weight: 200;
+  color: #2c2b2d;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 100%;
+}
+
+.column-third {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  /* border: 2px solid red; */
+  font-size: larger;
+}
+
+.column-half {
+  width: 45%;
+  margin: 10px;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.price {
+  font-size: larger;
+}
+
+.clothingTitle {
+  margin-left: 15px;
+}
