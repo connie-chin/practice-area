@@ -10,7 +10,7 @@
   height: 100px;
   display: flex;
   justify-content: space-between;
-  color: orange;
+  color: #aca15d;
 }
 
 .oneFourth {
@@ -79,14 +79,16 @@ img {
   background-color: white;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
+
+  /* border: 2px solid red; */
 }
 
 .gridContainer {
   display: flex;
   flex-wrap: wrap;
-  color: black;
-  border: 2px solid green;
+  color: #aca15d;
+
+  /* border: 2px solid green; */
   width: 95%;
 }
 
@@ -101,4 +103,9 @@ img {
   margin-left: 13px;
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+.grid-item:hover {
+  filter: brightness(1.3);
 }
