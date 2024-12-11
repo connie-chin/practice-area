@@ -1,0 +1,111 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.headerContainer {
+  background-color: white;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: #aca15d;
+}
+
+.oneFourth {
+  display: flex;
+  width: 25%;
+}
+
+.oneHalf {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  margin-left: 20px;
+  justify-content: flex-start;
+}
+
+.third {
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navBarContainer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  color: black;
+  height: 80px;
+}
+
+.oneHalf2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  width: 100vw;
+  height: 200px;
+  background-color: green;
+}
+
+img {
+  object-fit: fill;
+  height: 200px;
+  width: 100vw;
+}
+
+.titleContainer {
+  background-color: white;
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.productContainer {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+  /* border: 2px solid red; */
+}
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  color: #aca15d;
+
+  /* border: 2px solid green; */
+  width: 95%;
+}
+
+.productPic {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item {
+  width: 32%;
+  height: auto;
+  margin-left: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+.grid-item:hover {
+  filter: brightness(1.3);
+}
